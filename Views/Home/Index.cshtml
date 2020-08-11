@@ -1,0 +1,47 @@
+﻿@using aneri_vyas.Models;
+@model MainModel;
+
+<div class="frame" id="mainContainer">
+    <div class="frame" id="navigation">
+        <div id="links">
+        <a href="#intro" class="navigationLinks">About Aneri</a>
+        <a href="#skills" class="navigationLinks">Skills</a>
+        <a href="#projects" class="navigationLinks">Projects</a>
+        <a href="#experience" class="navigationLinks">Experience</a>
+        </div>
+    </div>
+    <div class="frame" id="contentContainer">
+        
+            <div class="cvContent" id="intro">my intro</div>
+            <div class="cvContent" id="skills">
+
+            my skills
+
+                <table id="skillsTable">
+
+                    <tr>
+                        <td>Language</td>
+                        <td>Type</td>
+                        <td>Year of Experience</td>
+                        <td>Description</td>
+                    </tr>
+
+                
+
+                @foreach(var item in Model.Skills)
+                {
+                     <tr>
+                         <td>@item.Name</td>
+                         <td>@item.Type</td>
+                         <td>@item.YearsOfExperience</td>
+                         <td>@item.Description</td>
+                     </tr>
+                }
+
+                </table>
+            </div>
+            <div class="cvContent" id="projects">my projects</div>
+            <div class="cvContent" id="experience">my experience</div>
+       
+    </div>
+</div>

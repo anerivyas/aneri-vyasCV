@@ -1,0 +1,53 @@
+[
+  {
+    "SkillID": "1",
+    "UserID": "1",
+    "Name": "HTML",
+    "Description": "",
+    "Type": "Web ",
+    "YearsOfExperience": "6",
+    "StartDate": "2020-08-11 00:00:00",
+    "EndDate": "2040-12-31 00:00:00",
+    "DeleteFlag": "0",
+    "CurrentFlag": "1"
+  },
+  {
+    "SkillID": "2",
+    "UserID": "1",
+    "Name": "CSS",
+    "Description": "",
+    "Type": "Web ",
+    "YearsOfExperience": "6",
+    "StartDate": "2020-08-11 00:00:00",
+    "EndDate": "2040-12-31 00:00:00",
+    "DeleteFlag": "0",
+    "CurrentFlag": "1"
+  },
+
+  {
+    "SkillID": "3",
+    "UserID": "1",
+    "Name": "JQuery",
+    "Description": "",
+    "Type": "Web ",
+    "YearsOfExperience": "3",
+    "StartDate": "2020-08-11 00:00:00",
+    "EndDate": "2040-12-31 00:00:00",
+    "DeleteFlag": "0",
+    "CurrentFlag": "1"
+  },
+
+  {
+    "SkillID": "4",
+    "UserID": "1",
+    "Name": "JavaScript",
+    "Description": "",
+    "Type": "Web ",
+    "YearsOfExperience": "3",
+    "StartDate": "2020-08-11 00:00:00",
+    "EndDate": "2040-12-31 00:00:00",
+    "DeleteFlag": "0",
+    "CurrentFlag": "1"
+  }
+
+]
