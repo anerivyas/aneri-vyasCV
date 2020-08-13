@@ -2,7 +2,23 @@
   {
     "UserID": "1",
     "Name": "Aneri Vyas",
-    "Title": null,
+    "Title": "Aneri Vyas",
+    "SubSectionTitle": "Me,Experience,Projects,Skills,Education",
+    "SubSectionID": "One,Two,Three,Four,Five",
+    "URLString": "aneri-vyas.azurewebsites.net",
+    "StartDate": "2020-08-11 00:00:00.000000",
+    "EndDate": "2040-12-31 00:00:00.000000",
+    "DeleteFlag": "0",
+    "CurrentFlag": "1"
+
+  },
+  {
+    "UserID": "2",
+    "Name": "Yukti Vyas",
+    "Title": "Dr. Yukti Vyas",
+    "SubSectionTitle": "Me,Experience,Projects,Skills,Education",
+    "SubSectionID": "One,Two,Three,Four,Five",
+    "URLString": "yukti-vyas.azurewebsites.net",
     "StartDate": "2020-08-11 00:00:00.000000",
     "EndDate": "2040-12-31 00:00:00.000000",
     "DeleteFlag": "0",
