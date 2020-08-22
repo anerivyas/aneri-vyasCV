@@ -11,9 +11,7 @@ namespace aneri_vyas.Models
     public class MainModel
     {
         public List<User> User { get; set; }
-       // public List<Skills> Skills { get; set; }
-       // public List<Experience> Experience { get; set; }
-       // public List<Projects> Projects { get; set; }
+
     }
 
 
@@ -56,44 +54,4 @@ namespace aneri_vyas.Models
         public string Owner { get; set; }
         public string Display { get; set; }
     }
-
-
-    //public class Skills
-    //{
-    //    public int SkillID { get; set; }
-    //    public int UserID { get; set; }
-    //    public string Name { get; set; }
-    //    public string Type { get; set; }
-    //    public string YearsOfExperience { get; set; }
-    //    public string Description { get; set; }
-    //}
-
-    //public class Experience
-    //{
-    //    public int UserID { get; set; }
-    //    public int ID { get; set; }
-    //    public string Location { get; set; }
-    //    public string Role { get; set; }
-    //    public string Type { get; set; }
-    //    public string Duration { get; set;}
-    //    public string Learning { get; set;}
-    //    public string Display { get; set; }
-    //    public string Year { get; set; }
-    //}
-
-    //public class Projects
-    //{
-    //    public int UserID { get; set; }
-    //    public int ID { get; set;}
-    //    public string Name { get; set; }
-    //    public string Owner { get; set; }
-    //    public string Details { get; set; }
-    //    public string Description { get; set; }
-    //    public string Learning { get; set; }
-    //    public string Link { get; set; }
-    //}
-
-}
-
-
 
