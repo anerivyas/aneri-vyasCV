@@ -19,67 +19,67 @@
     <div id="mainContainer">
         @foreach (var i in Model.User)
         {
-        <div id="navigationContainer">
+<div id="navigationContainer">
 
-            @foreach (var area in i.Areas)
-            {
-                
-                <div id="links_@area.SubSectionID" value="@area.SubSectionID" onclick="showContent(this)" class="navigationLinks">@area.SubSectionTitle</div>
-            
+    @foreach (var area in i.Areas)
+    {
 
-            }
+<div id="links_@area.SubSectionID" value="@area.SubSectionID" onclick="showContent(this)" class="navigationLinks">@area.SubSectionTitle</div>
 
-                        </div>
+
+}
+
+</div>
                 <div id="contentContainer">
 
                     @foreach (var area in i.Areas)
                     {
-                        <div class="content" id="@area.SubSectionID">
+    <div class="content" id="@area.SubSectionID">
 
-                            @foreach(var sub in area.SubSection)
-                            {
-                                        @switch (sub.SubSectionID)
-                                                                    {
-                                                                        case "One":
+        @foreach (var sub in area.SubSection)
+        {
+            @switch (sub.SubSectionID)
+            {
+                case "One":
 
-        
-                                                                        @sub.SubSectionTitle break;
 
-                                                                        case "Two":
+@sub.SubSectionTitle break;
 
-                                                       
-                                                        <div class="timelinecontainer @sub.Display">
-                                                            <div class="timelinecontent">
-                                                                <h2>@sub.Location (@sub.Year)</h2>
-                                                                <p>@sub.Role (@sub.Type) - @sub.Duration </p>
-                                                                <p>@sub.Learning</p>
-                                                            </div>
-                                                        </div>              break;
+case "Two":
 
-                                            case "Three":
 
-       
+<div class="timelinecontainer @sub.Display">
+    <div class="timelinecontent">
+        <h2>@sub.Location (@sub.Year)</h2>
+        <p>@sub.Role (@sub.Type) - @sub.Duration </p>
+        <p>@sub.Learning</p>
+    </div>
+</div> break;
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="/User/anerivyas/Desktop/Aneri-Vyas CV/aneri-vyas/Images/ExampleA.jpg" />
-                            <h1>@sub.Name</h1>
-                            <p>Please hover over me</p>
-                        </div>
-                        <div class="flip-card-back">
+case "Three":
 
-                            <p>@sub.Description</p>
-                            <p>@sub.Details</p>
-                            <p>@sub.Learning </p>
-                            <p>Owned by - @sub.Owner</p>
-                        </div>
-                    </div>
-                    </div>                            break;
 
-                                            case "Four":
 
-        
+<div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="/User/anerivyas/Desktop/Aneri-Vyas CV/aneri-vyas/Images/ExampleA.jpg" />
+            <h1>@sub.Name</h1>
+            <p>Please hover over me</p>
+        </div>
+        <div class="flip-card-back">
+
+            <p>@sub.Description</p>
+            <p>@sub.Details</p>
+            <p>@sub.Learning </p>
+            <p>Owned by - @sub.Owner</p>
+        </div>
+    </div>
+</div> break;
+
+case "Four":
+
+
 <table class="skillTable">
 
     <tr>
@@ -99,26 +99,15 @@
         </td>
     </tr>
 
-</table>                            break;
+</table> break;
 
-                                            case "Five":
+case "Five":
 
-      
-@sub.SubSectionTitle                                                  break;
-                            }
 
-                            
+@sub.SubSectionTitle            break;
+}}
 
-        
-
-                                
-
-                               
-
-                                
-                            }
-
-                        </div>}
+    </div>}
 
                 </div>}
 

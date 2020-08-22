@@ -5,7 +5,7 @@
     "Title": "Aneri Vyas",
     "SubSectionTitle": "Me,Experience,Projects,Skills,Education",
     "SubSectionID": "One,Two,Three,Four,Five",
-    "URLString": "aneri-vyas.azurewebsites.net",
+    "URLString": "localhost:5001", //"aneri-vyas.azurewebsites.net",
     "StartDate": "2020-08-11 00:00:00.000000",
     "EndDate": "2040-12-31 00:00:00.000000",
     "DeleteFlag": "0",
